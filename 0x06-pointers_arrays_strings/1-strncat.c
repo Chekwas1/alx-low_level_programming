@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
  * *_strncat: concatenates each strings using most an inputted no of bytes from
  *  src
