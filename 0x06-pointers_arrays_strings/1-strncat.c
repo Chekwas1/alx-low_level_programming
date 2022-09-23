@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * *_strncat: concatenates each strings using most an inputted number of bytes from each string
+ * *_strncat: concatenates each strings using most an inputted no of bytes from
+ *  src
  * dest: the string to be appended upon
  * src: the string to be appended to dest
  * @n: the number of bytes from src to be ppended to dest
