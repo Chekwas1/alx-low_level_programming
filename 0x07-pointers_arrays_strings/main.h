@@ -2,13 +2,10 @@
 #define MAIN_H
 
 /**
- * File: holberton.h
- * Auth: Firdaus
- * Desc: Header file containing prototypes for all functions
- *       used in the 0x07-pointers_arrays_strings directory.
+ * File: main.h
+ * Auth: chekwas
+ * Desc: Header file containing prototypes for all functioN
  */
-
-#include <stddef.h>
 
 int _putchar(char c);
 void *_memset(void *s, int c, size_t n);
@@ -21,4 +18,4 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
 
-#endif
+#endif /"MAIN_H"/
