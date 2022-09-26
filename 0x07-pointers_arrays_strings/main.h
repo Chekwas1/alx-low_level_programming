@@ -2,9 +2,8 @@
 #define MAIN_H
 
 /**
- * File: main.h
- * Auth: chekwas
- * Desc: Header file containing prototypes for all functioN
+ * void protoypes()
+ * int prototypes()
  */
 
 int _putchar(char c);
@@ -18,4 +17,4 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
 
-#endif /"MAIN_H"/
+#endif /*MAIN_H*/
