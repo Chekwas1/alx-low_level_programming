@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
 * factorial - searchs for the factorial of a number
@@ -9,7 +9,7 @@ include "main.h"
 
 int factorial(int n)
 {
-	int  next;
+	int next;
 
 	if (n == 0)
 		return (1);
