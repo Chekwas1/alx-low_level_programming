@@ -9,13 +9,13 @@ include "main.h"
 
 int factorial(int n)
 {
-	int cheta;
+	int  next;
 
 	if (n == 0)
 		return (1);
 	else if (n < 0)
 	return (-1);
 
-	cheta = factorial(n - 1);
-	return (n * cheta);
+	next = factorial(n - 1);
+	return (n * next);
 }
