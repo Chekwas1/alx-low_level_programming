@@ -59,3 +59,4 @@ char **strtow(char *str)
 	}
 	aout[i] = NULL;
 	return (aout);
+}
